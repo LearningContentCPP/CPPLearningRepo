@@ -1,7 +1,15 @@
 #include <GLFW/glfw3.h>
+#include<iostream>
 
 int main(void)
 {
+    int a = 123'456;
+    std::cout << a << std::endl;
+
+    std::cin.get();
+    
+
+
     GLFWwindow* window;
 
     /* Initialize the library */
